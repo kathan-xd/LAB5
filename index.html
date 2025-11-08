@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kathan Pandya - Student Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-section {
+            width: 30%;
+            background: linear-gradient(to bottom, #FF4D4D, #FF9900);
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .right-section {
+            width: 70%;
+            padding: 30px 40px;
+            background-color: #ffffff;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 4px solid white;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 24px;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        .icon-circle {
+            background-color: white;
+            color: #FF4D4D;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .section-title {
+            color: white;
+            font-size: 18px;
+        }
+
+        .section-underline {
+            height: 3px;
+            width: 70%;
+            background: linear-gradient(to right, #fff 20%, #FF9900 100%);
+            margin: 6px 0 16px 38px;
+            border-radius: 2px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="profile-pic">
+                <img src="img.jpg" alt="Profile Photo">
+            </div>
+            <h1>KATHAN PANDYA</h1>
+            <p class="title">Student</p>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">📞</span>
+                    <span class="section-title">Contact</span>
+                </div>
+                <div class="section-underline"></div>
+                <p>Phone: 7990226496</p>
+                <p>Email: kathan.pandya133356@marwadiuniversity.ac.in</p>
+                <p>Address: 104, JIVRAJ RESIDENCY, RAJKOT- 360004</p>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">💡</span>
+                    <span class="section-title">Skills</span>
+                </div>
+                <div class="section-underline"></div>
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">🌐</span>
+                    <span class="section-title">Social</span>
+                </div>
+                <div class="section-underline"></div>
+                <p>LinkedIn: linkedin.com/in/kathanpandya</p>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">👤</span>
+                    <span class="section-title" style="color:#FF4D4D;">Profile</span>
+                </div>
+                <div class="section-underline" style="background: #FF4D4D;"></div>
+                <p>I'm a passionate BTech CSE student in 2nd year at Marwadi University. Curious about tech, design, and always looking to build and learn something new.</p>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">💼</span>
+                    <span class="section-title" style="color:#FF4D4D;">Experience</span>
+                </div>
+                <div class="section-underline" style="background: #FF4D4D;"></div>
+                <p><strong>Web Development Intern</strong><br>
+                CodeClash Web Solutions (Remote) | May 2024 – July 2024<br>
+                Developed responsive websites, worked on frontend interfaces using HTML, CSS, and collaborated with designers.</p>
+
+                <p><strong>Backend Developer - College Project</strong><br>
+                Marwadi University | Jan 2024 – Mar 2024<br>
+                Created backend structure using Java and MySQL for a quiz application with secure login and performance tracking.</p>
+
+                <p><strong>Tech Fest Volunteer</strong><br>
+                MU TechWeek | Sep 2023<br>
+                Assisted in event organization, managed online registration portal and live updates during the university tech festival.</p>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <span class="icon-circle">🎓</span>
+                    <span class="section-title" style="color:#FF4D4D;">Education</span>
+                </div>
+                <div class="section-underline" style="background: #FF4D4D;"></div>
+                <p>BTech in Computer Science and Engineering<br>
+                Marwadi University<br>
+                Graduation Year: 2028</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
